@@ -90,6 +90,7 @@ the prize prediction from data castle
 * place.py 生成在不同地方一卡通消费特征
 * time.py 生成不同时间段一卡通消费特征
 * cash.py 生成一卡通消费金额特征
+
 /code文件夹
 code.py
 1. 合并特征并进行抽样 
