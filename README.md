@@ -1,6 +1,6 @@
 # PrizePredict
 the prize prediction from data castle
-**创建这个项目来记录我数据挖掘课程上的助学金预测项目**
+**创建这个项目来记录数据挖掘课程上的助学金预测项目**
 * 2017.11.26
 * 本题目来源于数据城堡上的一个比赛[大学生助学金精准资助预测](http://www.dcjingsai.com/common/cmpt/%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%8A%A9%E5%AD%A6%E9%87%91%E7%B2%BE%E5%87%86%E8%B5%84%E5%8A%A9%E9%A2%84%E6%B5%8B_%E7%AB%9E%E8%B5%9B%E4%BF%A1%E6%81%AF.html)
 ## 问题描述
@@ -83,3 +83,16 @@ the prize prediction from data castle
  * [InsaneLife](https://github.com/InsaneLife/Sdudent-Grant)
  * [ShawnXiha](https://github.com/ShawnXiha/DataCastle-subsidy/tree/master/Jupyter)
 ## 解决方案流程
+/feature文件夹生成特征
+* borrow.py 生成借书统计特征
+* dorm.py 生成进出宿舍特征
+* library.py 生成 进出图书馆特征
+* place.py 生成在不同地方一卡通消费特征
+* time.py 生成不同时间段一卡通消费特征
+* cash.py 生成一卡通消费金额特征
+/code文件夹
+code.py
+1. 合并特征并进行抽样 
+2. 预处理
+3. 生成训练集测试集
+4. 基本模型和xgboost模型
