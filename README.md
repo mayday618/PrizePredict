@@ -83,6 +83,12 @@ the prize prediction from data castle
  * [InsaneLife](https://github.com/InsaneLife/Sdudent-Grant)
  * [ShawnXiha](https://github.com/ShawnXiha/DataCastle-subsidy/tree/master/Jupyter)
 ## 解决方案流程
+/data文件夹存数据
+* /train 训练集
+* /final_test 最终测试集
+* /input 提取出的中间特征
+* /output 预测结果
+
 /feature文件夹生成特征
 * borrow.py 生成借书统计特征
 * dorm.py 生成进出宿舍特征
